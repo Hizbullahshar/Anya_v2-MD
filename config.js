@@ -38,11 +38,11 @@ global.ownername = "Hizbullah"
 global.ownernumber = ["923183056493"]
 global.ytname = "YT: Enter Your Channel Name Here"
 global.continent = "Asia" // your continent name 
-global.region = "Enter Your Country Name Here"
-global.state = "Enter Your State Name Here" // your state name
-global.timezone = "Asia/Kolkata" // search on google if you don't know the timezone of your country //
+global.region = "Pakistan"
+global.state = "Sindh" // your state name
+global.timezone = "Asia/Karachi" // search on google if you don't know the timezone of your country //
 global.instagramId = "Enter Your Insta ID Here"
-global.email = "Enter Your Email ID Here"
+global.email = "sharhizbullah36@gmail.com"
 
 
 // Greeting messages
