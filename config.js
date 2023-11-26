@@ -9,20 +9,20 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 
 
 global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
-global.packname = process.env.PackName || "Queen Anya v2 MD" 
+global.author = process.env.Author || "Alan Walker" 
+global.packname = process.env.PackName || "" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
 global.footer = process.env.Footer || "© Queen Anya Bot" 
-global.prefa = process.env.Prefix || ['-'] 
+global.prefa = process.env.Prefix || ['.'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
-global.adress = process.env.Continent || "Asia, India, Assam" 
-global.timezone = process.env.TimeZone || "Asia/Kolkata" 
-global.instagramId = process.env.Insta || "8.08_only_mine" 
-global.email = process.env.Email_Id || "example@example.com" 
+global.ownername = process.env.Owner_Name || "Alan Walker" 
+global.ownernumber = process.env.Owner_Number || "923183056493" 
+global.adress = process.env.Continent || "Asia, Pakistan, Sindh" 
+global.timezone = process.env.TimeZone || "Asia/Karachi" 
+global.instagramId = process.env.Insta || "" 
+global.email = process.env.Email_Id || "" 
 
-global.mongoUrl = process.env.MongoDB || "Enter"; 
+global.mongoUrl = process.env.MongoDB || "mongodb+srv://gopu123:fVan1grLeEOvovh8@cluster0.etsougj.mongodb.net/"; 
 
 global.warns = process.env.Warns_Limits || 3; 
 
@@ -93,37 +93,37 @@ global.message = {
     group: "*👥 G𝚛𝚘𝚞𝚙 N𝚎𝚎𝚍𝚎𝚍!*\n\n- This command can only be executed in a group chat.",
     private: 'This command is only for private chats.',
     wait: '🔄 Processing request...',
-    link: 'I need a link to process this command.',
+    link: '🖇️I need a link to process this command.',
     error: "❌ Oops! An error occurred while processing your request. Please try again later.",
-    ban: `You're banned from using this bot!`,
-    nsfw: 'This group is not *NSFW* enabled.',
-    banChat: 'This group is banned from using this bot, please contact owner to get unbanned.'
+    ban: `⚠️ You're banned from using this bot!`,
+    nsfw: '🥵 This group does not support *NSFW*.',
+    banChat: '⚰️ This group is banned from using this bot, please contact owner to get unbanned.'
 },
 
 module.exports = {
   botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
-  packname: process.env.PackName || "Queen Anya v2 MD",
+  author: process.env.Author || "Alan Walker",
+  packname: process.env.PackName || "",
   myweb: process.env.Web || "https://github.com/PikaBotz",
   footer: process.env.Footer || "© Queen Anya Bot",
-  prefa: process.env.Prefix || ['-'],
+  prefa: process.env.Prefix || ['.'],
   themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
-  adress: process.env.Continent || "Asia, India, Assam",
+  ownername: process.env.Owner_Name || "Alan Walker",
+  ownernumber: process.env.Owner_Number || "923183056493",
+  adress: process.env.Continent || "Asia, Pakistan, Sindh",
   timezone: process.env.TimeZone || "Asia/Kolkata", 
-  instagramId: process.env.Insta || "8.08_only_mine",
-  email: process.env.Email_Id || "example@example.com",
+  instagramId: process.env.Insta || "https://chat.whatsapp.com/KlSW8y9vDAh5ism0aN4i7a",
+  email: process.env.Email_Id || "",
   warns: process.env.Warns_Limits || 3,
-  mongoUrl: process.env.MongoDB || "Enter",
+  mongoUrl: process.env.MongoDB || "mongodb+srv://gopu123:fVan1grLeEOvovh8@cluster0.etsougj.mongodb.net/",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
   sessionId: process.env.SESSION_ID || "Queen Anya", 
   auto_read_status : process.env.AUTO_READ_STATUS || "true",
-  alwaysonline: process.env.ALWAYS_ONLINE || "true", 
-  readmessage: process.env.READ_MESSAGE || "true", 
+  alwaysonline: process.env.ALWAYS_ONLINE || "false", 
+  readmessage: process.env.READ_MESSAGE || "false", 
   auto_status_saver: process.env.AUTO_STATUS_SAVER || "true",
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
